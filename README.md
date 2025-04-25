@@ -9,16 +9,16 @@ This is a WPF desktop application for securely encrypting and decrypting files u
 - MSTest for running unit tests
 
 ## Building the Application
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/piacovou/SecureFileCryptoApp.git
 ```
-Open SecureFileCryptoApp.sln in Visual Studio.
-Build the solution (Debug or Release configuration).
+2. Open SecureFileCryptoApp.sln in Visual Studio.
+3. Build the solution (Debug or Release configuration).
 
 ## Running the Application
-Run the application from Visual Studio (F5) or execute the compiled executable from bin/Debug or bin/Release.
-The application will open a window with the following features:
+1. Run the application from Visual Studio (F5) or execute the compiled executable from bin/Debug or bin/Release.
+2. The application will open a window with the following features:
 	Browse: Select a file to encrypt/decrypt.
 	Password: Enter the encryption/decryption password.
 	Encrypt: Encrypt the selected file (saves to Encrypt folder with .enc extension).
@@ -31,22 +31,22 @@ Logs are saved to log.txt in the application directory.
 Logs include timestamps and details of operations/errors.
 
 ## Unit Tests
-Open the Test Explorer in Visual Studio.
-Run the tests in SecureFileCryptoApp.Tests project.
-Tests verify:
+1. Open the Test Explorer in Visual Studio.
+2. Run the tests in SecureFileCryptoApp.Tests project.
+3. Tests verify:
 	Successful file encryption
 	Successful decryption with correct content restoration
 
 ## Security Notes
-Uses AES-256 with CBC mode and PKCS7 padding
-Password-based key derivation with PBKDF2 (1000 iterations)
-Random salt and IV for each encryption
-Secure file handling with proper disposal of cryptographic resources
+1. Uses AES-256 with CBC mode and PKCS7 padding
+2. Password-based key derivation with PBKDF2 (1000 iterations)
+3. Random salt and IV for each encryption
+4. Secure file handling with proper disposal of cryptographic resources
 
 ## Troubleshooting
-Ensure the selected file exists and is accessible.
-Verify the password matches for decryption.
-Check log.txt for detailed error messages if operations fail.
+1. Ensure the selected file exists and is accessible.
+2. Verify the password matches for decryption.
+3. Check log.txt for detailed error messages if operations fail.
 
 
 # Notes
