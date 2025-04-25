@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ss308LHGP68=",
+  "success": true,
+  "projectFilePath": "C:\\Git\\SignalGenerixSolution\\SecureFileCryptoApp.Tests\\SecureFileCryptoApp.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\mstest.analyzers\\3.8.3\\mstest.analyzers.3.8.3.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\mstest.testframework\\3.8.3\\mstest.testframework.3.8.3.nupkg.sha512",
+    "C:\\Users\\T.Herodotou\\.nuget\\packages\\nunit\\4.3.2\\nunit.4.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
