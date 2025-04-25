@@ -11,7 +11,7 @@ This is a WPF desktop application for securely encrypting and decrypting files u
 ## Building the Application
 1. Clone the repository:
 ```bash
-git clone https://github.com/piacovou/SecureFileCryptoApp.git
+git clone
 ```
 2. Open SecureFileCryptoApp.sln in Visual Studio.
 3. Build the solution (Debug or Release configuration).
@@ -56,5 +56,4 @@ Logs include timestamps and details of operations/errors.
 - The application creates `Encrypt` and `Decrypt` folders in the same directory as the input file.
 - Logging is implemented with both file output and UI display.
 - Unit tests verify encryption and decryption functionality.
-- The repository should be created with access granted to p.iacovou@signalgenerix.com.
 - All sensitive cryptographic resources are properly disposed of using `using` statements.
