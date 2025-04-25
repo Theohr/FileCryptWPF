@@ -31,22 +31,22 @@ Logs are saved to log.txt in the application directory.
 Logs include timestamps and details of operations/errors.
 
 ## Unit Tests
-1.Open the Test Explorer in Visual Studio.
-2.Run the tests in SecureFileCryptoApp.Tests project.
-3.Tests verify:
+1. Open the Test Explorer in Visual Studio.
+2. Run the tests in SecureFileCryptoApp.Tests project.
+3. Tests verify:
 	Successful file encryption
 	Successful decryption with correct content restoration
 
 ## Security Notes
-1.Uses AES-256 with CBC mode and PKCS7 padding
-2.Password-based key derivation with PBKDF2 (1000 iterations)
-3.Random salt and IV for each encryption
-4.Secure file handling with proper disposal of cryptographic resources
+1. Uses AES-256 with CBC mode and PKCS7 padding
+2. Password-based key derivation with PBKDF2 (1000 iterations)
+3. Random salt and IV for each encryption
+4. Secure file handling with proper disposal of cryptographic resources
 
 ## Troubleshooting
-1.Ensure the selected file exists and is accessible.
-2.Verify the password matches for decryption.
-3.Check log.txt for detailed error messages if operations fail.
+1. Ensure the selected file exists and is accessible.
+2. Verify the password matches for decryption.
+3. Check log.txt for detailed error messages if operations fail.
 
 
 # Notes
